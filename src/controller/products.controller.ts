@@ -9,6 +9,11 @@ class ProductController {
     const result = await this.productService.adicProducts({ name, amount });
     return res.status(201).json(result);
   };
+
+  async findAllProduct(_req: Request, res: Response): Promise<void> {
+    const result = await this.productService.findAllProducts();
+    res.status(200).json(result);
+  }
 }
 
 export default ProductController;

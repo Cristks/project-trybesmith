@@ -1,5 +1,5 @@
 // import connection from './connection';
-import { Pool, ResultSetHeader } from 'mysql2/promise';
+import { Pool, ResultSetHeader, RowDataPacket } from 'mysql2/promise';
 import { IProduct } from '../interfaces/Products.interface';
 
 export default class ProductModel {
@@ -17,5 +17,12 @@ export default class ProductModel {
     const newProduct = { id: insertId, ...product };
   
     return newProduct;
+  }
+
+  async findAllProducts(): Promise<IProduct[]> { // retorna um array de produtos
+    const [result] = await this.connection.execute<(IProduct & RowDataPacket)[]>( // retorna um array dos nosso produtos mais a tipagem (video Vallin)
+      'SELECT * FROM Trybesmith.products ORDER BY id');
+
+    return result;
   }
 }

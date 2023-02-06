@@ -3,7 +3,7 @@ import ProductModel from '../models/products.models';
 import { IProduct } from '../interfaces/Products.interface';
 
 class ProductService {
-  public model: ProductModel;
+  private model: ProductModel;
 
   constructor() {
     this.model = new ProductModel(connection);
@@ -11,6 +11,10 @@ class ProductService {
 
   public async adicProducts(product: IProduct) {
     return this.model.adicProducts(product);
+  }
+
+  async findAllProducts(): Promise<IProduct[]> {
+    return this.model.findAllProducts();
   }
 }
 
