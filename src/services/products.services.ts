@@ -16,6 +16,10 @@ class ProductService {
   async findAllProducts(): Promise<IProduct[]> {
     return this.model.findAllProducts();
   }
+
+  async findOneProduct(id: number): Promise<IProduct> {
+    return this.model.findOneProducts(id);
+  }
 }
 
 export default ProductService;

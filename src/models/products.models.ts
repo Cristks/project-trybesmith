@@ -25,4 +25,13 @@ export default class ProductModel {
 
     return result;
   }
+
+  async findOneProducts(id: number): Promise<IProduct> {
+    const [[result]] = await this.connection.execute<(// results com array pq o retorno tem que ser só um arrray que volta dentro do array de tudo. 
+    IProduct & RowDataPacket)[]>(
+      'SELECT * FROM Trybesmith.products WHERE products.id =?',
+      [id],
+      );
+    return result;
+  }
 }
