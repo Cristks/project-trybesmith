@@ -4,7 +4,7 @@ import { IUser } from '../interfaces/User.interface';
 const createToken = (user: IUser) => {
   const { id, username, vocation, level } = user;
   const newUser = { id, username, vocation, level };
-  const token = jwt.sign({ data: newUser }, 'umsegredomuitobemguardado' as string, {
+  const token = jwt.sign({ data: newUser }, 'trybesmithsecreto' as string, {
     expiresIn: '30min',
     algorithm: 'HS256',
   });

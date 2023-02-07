@@ -1,9 +1,12 @@
-// export class NotFound extends Error {
-//   public statusCode: number = 404;
+const statusCode = {
+  OK: 200,
+  CREATED: 201,
+  NO_CONTENT: 204,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  NOT_FOUND: 404,
+  UNPROCESSABLE_ENTITY: 422,
 
-//   public name: string = 'AppErrors';
+};
 
-//   constructor(message: string) {
-//     super(message);
-//   }
-// }
+export default statusCode;
