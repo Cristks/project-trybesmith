@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import statusCode from '../errors/AppErrors';
 import LoginService from '../services/login.services';
 
 export default class LoginController {
@@ -8,9 +7,9 @@ export default class LoginController {
   public userLogin = async (req: Request, res: Response) => {
     const token = await this.loginService.userLogin(req.body);
     if (!token) {
-      return res.status(statusCode.UNAUTHORIZED)
+      return res.status(401)
         .json({ message: 'Username or password invalid' });
     }
-    return res.status(statusCode.OK).json({ token });
+    return res.status(200).json({ token });
   };
 }
