@@ -1,6 +1,3 @@
-![WhatsApp Image 2023-02-17 at 17 49 47](https://user-images.githubusercontent.com/106772807/219790832-3f05b1a7-6ed5-4919-b477-e25ae698107c.jpeg)
-![WhatsApp Image 2023-02-17 at 17 49 47](https://user-images.githubusercontent.com/106772807/219790866-f254eff7-c89a-448f-bbf4-bce3e93cd578.jpeg)
-
 
 # Boas vindos ao 🏰 Trybe-Project-TrybeSmith  🏰
 
