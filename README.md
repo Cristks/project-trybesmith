@@ -107,5 +107,5 @@ $ cd sd-024-b-project-trybesmith
     <a href="https://www.linkedin.com/in/cristiane-kizelevicius-samaan/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 	<a href="https://github.com/Cristks" target="_blank"><img src="https://img.shields.io/badge/-GitHub-%23333?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 </div>
-
+.
 
