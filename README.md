@@ -1,4 +1,4 @@
-# :construction: README customizado em construção ! :construction:
+
 
 # Boas vindos ao 🏰 Trybe-Project-TrybeSmith  🏰
 
@@ -99,7 +99,7 @@ $ cd sd-024-b-project-trybesmith
   ## Desempenho alcançado
   
 
-## Connect with me:
+  
 
 <div align="center" margin="50px">
 	  <a href = "mailto:cristiane@samaan.com.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_white"></a>
