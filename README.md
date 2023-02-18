@@ -1,5 +1,5 @@
 
-# Boas vindos ao 🏰 Trybe-Project-TrybeSmith  🏰
+# 🏰 Boas vindos ao projeto Trybe-Project-TrybeSmith  🏰
 
 
 
