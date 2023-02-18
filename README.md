@@ -59,42 +59,7 @@ $ cd sd-024-b-project-trybesmith
 </details>
   </details>
   
-  ## Desenvolvimento do Projeto
-  
- <details>
-    <summary><strong>👨‍💻Requesitos Técnicos</strong></summary><br />
-
-
-  
-  <details>
-<summary><red>Requesitos obrigatórios<red></summary><br />  
-  
-
-✅ 1. Crie um endpoint para o cadastro de produtos.
-
-✅ 2. Crie um endpoint para a listagem de produtos.
-
-✅ 3. Crie um endpoint para o cadastro de pessoas usuárias
-
-✅ 4. Crie um endpoint para listar todos os pedidos
-
-✅ 5. Crie um endpoint para o login de pessoas usuárias
-    </details>
-  
-<details>
-  
-<summary>Requesitos Bônus</summary><br /> 
-
-✅ 6. Crie as validações dos produtos
-
-✅ 7. Crie as validações para as pessoas usuárias
-
-   8. Crie um endpoint para o cadastro de um pedido
-
-  </details>
-  </details>
- 
-  
+   
   ## Desempenho alcançado
   ![tribesmith1](https://user-images.githubusercontent.com/106772807/219827187-92732413-048b-4c47-95f3-3cfe6bb8663a.png)
 ![tribesmith2](https://user-images.githubusercontent.com/106772807/219827191-85454113-9a4c-4138-938c-a43800a9ee32.png)
