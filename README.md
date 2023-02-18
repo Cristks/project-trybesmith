@@ -8,7 +8,7 @@
 
 ## Tecnologias e Práticas Adotadas
   
- Projeto de   criação loja de itens medievais, no formato de uma API, utilizando Typescript.⚔️
+ Projeto de criação de uma  loja de itens medievais, no formato de uma API, utilizando Typescript.⚔️
 
 Desenvolvemos camadas da aplicação (Models, Service e Controllers) no  código para realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD, - Create, Read, Update e Delete).
 
@@ -96,8 +96,10 @@ $ cd sd-024-b-project-trybesmith
  
   
   ## Desempenho alcançado
-  
-![WhatsApp Image 2023-02-17 at 17 49 47](https://user-images.githubusercontent.com/106772807/219791034-94e1f2eb-69ab-40f1-89ca-2cffc9c0c5a9.jpeg)
+  ![tribesmith1](https://user-images.githubusercontent.com/106772807/219827187-92732413-048b-4c47-95f3-3cfe6bb8663a.png)
+![tribesmith2](https://user-images.githubusercontent.com/106772807/219827191-85454113-9a4c-4138-938c-a43800a9ee32.png)
+
+
 
 
   
